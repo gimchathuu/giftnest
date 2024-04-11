@@ -1,0 +1,240 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  
+}
+
+
+:root{
+  --green:#bd5e7775;
+  --black:#333;
+  --white:#fff;
+  --bg-color:#cc7c8f;
+  
+}
+
+*{
+  font-family: 'Poppins', sans-serif;
+  margin:0; padding:0;
+  box-sizing: border-box;
+  outline: none; border:none;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+html{
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+body {
+  background-image: linear-gradient(to top left, #bd5e78, #f3d6db, #e7b8c1, #da9aa8, #f3d6db, #cc7c8f, #bd5e78);
+
+}
+.Welcome{
+  margin: 30px;
+  font-size: 80px;
+}
+.btn{
+  
+  display: block;
+  width: 100%;
+  cursor: pointer;
+  border-radius: .5rem;
+  margin-top: 1rem;
+  font-size: 1.7rem;
+  padding:1rem 3rem;
+  background: #e19fab;
+  color:var(--white);
+  text-align: center;
+}
+
+.btn:hover{
+  background: var(--black);
+}
+
+.message{
+  display: block;
+  background: var(--bg-color);
+  padding:1.5rem 1rem;
+  font-size: 2rem;
+  color:var(--black);
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.container{
+  max-width: 1200px;
+  padding:2rem;
+  margin:0 auto;
+}
+
+.admin-product-form-container.centered{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  
+}
+
+.admin-product-form-container form{
+  max-width: 50rem;
+  margin:0 auto;
+  padding:2rem;
+  border-radius: .5rem;
+  background: var(--bg-color);
+}
+
+.admin-product-form-container form h3{
+  text-transform: uppercase;
+  color:var(--black);
+  margin-bottom: 1rem;
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+.admin-product-form-container form .box{
+  width: 100%;
+  border-radius: .5rem;
+  padding:1.2rem 1.5rem;
+  font-size: 1.7rem;
+  margin:1rem 0;
+  background: var(--white);
+  text-transform: none;
+}
+.admin-product-form-container form select{
+  width: 100%;
+  padding:10px 15px;
+  font-size: 17px;
+  margin:8px 0;
+  background: #e19fab;
+  border-radius: 5px;
+}
+
+.admin-product-form-container form select option{
+  background: #fff;
+}
+
+.product-display{
+  margin:2rem 0;
+}
+
+.product-display .product-display-table{
+  width: 100%;
+  text-align: center;
+}
+
+.product-display .product-display-table thead{
+  background: var(--bg-color);
+}
+
+.product-display .product-display-table th{
+  padding:1rem;
+  font-size: 2rem;
+  border-radius:10px ;
+}
+
+
+.product-display .product-display-table td{
+  padding:1rem;
+  font-size: 2rem;
+  
+}
+
+.product-display .product-display-table .btn:first-child{
+  margin-top: 0;
+}
+
+.product-display .product-display-table .btn:last-child{
+  background: crimson;
+}
+
+.product-display .product-display-table .btn:last-child:hover{
+  background: var(--black);
+}
+
+.form-container.centered{
+  width: 100%;
+   height: 25px;
+   padding: 6px 12px;
+   font-size: 14px;
+   color: #555;
+   background-color: #fff;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+  
+}
+
+.form-container form{
+  max-width: 50rem;
+  margin:0 auto;
+  padding:2rem;
+  border-radius: .5rem;
+  background-color: #f1f1f1;
+}
+
+.form-container form h3{
+  text-transform: uppercase;
+  color:var(--black);
+  margin-bottom: 12px;
+  text-align: center;
+  font-size: 30px;
+}
+
+.form-container form .box{
+  width: 100%;
+  border-radius: 10px;
+  padding:15px 20px;
+  font-size: 20px;
+  margin:15px 0;
+  background: #fff;
+  text-transform: none;
+}
+
+
+h3{
+  text-transform: uppercase;
+  color:var(--black);
+  margin-bottom: 12px;
+  text-align: center;
+  font-size: 30px;
+}
+.admin-container.centered{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  
+}
+
+.admin-container form{
+  max-width: 50rem;
+  margin:0 auto;
+  padding:32px;
+  border-radius: 8px;
+  background: #eee;
+}
+
+.admin-container form h3{
+  text-transform: uppercase;
+  color: #000;
+  margin-bottom: 16px;
+  text-align: center;
+  font-size: 40px;
+}
+
+.admin-container form .box{
+  width: 100%;
+  border-radius: 8px;
+  padding:20px 24px;
+  font-size: 20px;
+  margin:16px 0;
+  background: #fff;
+  text-transform: none;
+}
+
+
+
+

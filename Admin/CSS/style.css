@@ -1,0 +1,57 @@
+html, body {
+    font-family: "Montserrat", sans-serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px 100px;
+    background: #bd5e78;
+}
+
+.brand a {
+    text-decoration: none;
+    font-size: 35px;
+    font-weight: 600;
+    color: #fff;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+}
+
+li {
+    list-style-type: none;
+    margin-left: 48px;
+}
+
+li > a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+
+li::after {
+    content: '';
+    width: 0rem;
+    height: 2px;
+    background-color: #fff;
+    display: block;
+    border-radius: 5px;
+    margin: 4px rem auto 0 auto;
+    transition: all 0.3s ease-in-out;
+}
+
+li:hover::after {
+    width: 32px;
+}
